@@ -7,7 +7,10 @@ subject: "Markdown"
 keywords: [Markdown, Example]
 subtitle: "Traitement d'Image"
 desc: |
-    todo
+    Au sein du cours de Traitement d'Image enseigné par François Tièche se déroule un travail pratique à choix en réunissant plusieurs étudiants.
+    Julien Dos Santos Ferreira, Luca Verardo et Lucas Fridez forment un groupe. 
+    Le travail consiste à analyser des images de globules rouges à l'aide de l'algorithme YOLO. Ces résultats sont comparés à un traitement d'image brut, sans réseaux de neurones.
+    Ce présent document retranscrit le déroulement du travail pratique effectué.
 
 typedoc: "Rapport"
 lang: "fr"
