@@ -3,7 +3,3 @@
 todo
 
 \newpage
-
-# Références 
-
-
