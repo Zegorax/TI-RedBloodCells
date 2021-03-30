@@ -10,7 +10,7 @@ todo
 
 todo
 
-## Modèle effectué
+## Modèle utilisé
 
 todo
 
