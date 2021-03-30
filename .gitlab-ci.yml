@@ -7,8 +7,8 @@ Report:
   script:
     - chmod +x ./doc/generatedocs.sh ./doc/generateuml.sh
     - cd doc
-    - ./doc/generateuml.sh
-    - ./doc/generatedocs.sh
+    - ./generateuml.sh
+    - ./generatedocs.sh
   tags:
     - alpine-docker
   artifacts:
