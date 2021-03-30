@@ -8,6 +8,8 @@ Report:
     - chmod +x ./doc/generatedocs.sh ./doc/generateuml.sh
     - ./doc/generateuml.sh
     - ./doc/generatedocs.sh
+  tags:
+    - alpine-docker
   artifacts:
     paths:
       - "*.pdf"
