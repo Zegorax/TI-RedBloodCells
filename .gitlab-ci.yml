@@ -6,11 +6,12 @@ Report:
   stage: Documentation
   script:
     - chmod +x ./doc/generatedocs.sh ./doc/generateuml.sh
+    - cd doc
     - ./doc/generateuml.sh
     - ./doc/generatedocs.sh
   tags:
     - alpine-docker
   artifacts:
     paths:
-      - "*.pdf"
+      - "./doc/*.pdf"
     expire_in: 1 week
