@@ -1,4 +1,11 @@
 
+yolov5/
+training/
+dataset.yaml
+yolov5s.yaml
+classes.names
+detected_results/
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,python,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,windows
 
