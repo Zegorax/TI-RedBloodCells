@@ -7,14 +7,16 @@ import cv2
 import matplotlib.pyplot as plt
 import sys
 
+# python3 WaterShedAndCounting.py '../dataset/training/image-10.png'
 
 def show(img):
+    '''Fuinction for show img'''
     plt.imshow(img)
     plt.show()
 
-
 if __name__ == "__main__":
     if(len(sys.argv) <= 1):
+        '''Test if filename is present in args'''
         print("Error bad args!")
         exit(0)
 
@@ -48,6 +50,7 @@ if __name__ == "__main__":
     labels = watershed(-D, markers, mask=thr)
     ws = len(np.unique(labels)) - 1
 
+    #Count number of segmentation
     ans = int((ws + len(count)) / 2)
     print("number of blood cells segments detected = ", ans)
     cv2.drawContours(img, count, -1, (255, 0, 0), 3)
