@@ -13,4 +13,30 @@ Les objectifs du projet sont les suivants :
 - Lancer YOLO sur les images annotées
 - Comparer les résultats avec un traitement d'image classique
 
+## Cahier des charges
+
+Ce cahier des charges se base sur la définition MoSCoW : https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW
+
+### But du projet
+
+Ce projet a pour but de mettre en place un solution permettant de compter le nombre de cellules (blanche ou rouge) dans une image de sang au microscope. l'intelligence artificielle permettra la reconnaissance des cellules au travers du modèle YoloV5.
+
+#### Must have
+
+- Dataset annoté
+- Implémentation du modèle YoloV5
+- Dénombrement des cellules reconnues
+
+#### Should have
+
+- Analyse des résultats obtenus
+
+#### Could have
+
+- Comparaison avec une méthode plus classique du traitement d'image.
+
+#### Won't have
+
+- Comparaison avec un autre modèle tel que CNN
+
 \newpage
