@@ -20,7 +20,7 @@ Ce cahier des charges se base sur la définition MoSCoW : https://fr.wikipedia.o
 ### But du projet
 
 Ce projet a pour but de mettre en place une solution permettant de compter le nombre de globules (blancs ou rouges) dans une image de sang au microscope.
-L'intelligence artificielle permet la reconnaissance des cellules au travers du modèle **YoloV5**.
+L'intelligence artificielle permet la reconnaissance des cellules au travers du modèle **Yolo v5**.
 
 **Must have**
 
