@@ -24,7 +24,28 @@ todo
 
 ## Utilisation de Watershed
 
-todo
+Ce sous-chapitre explique comment utiliser la partie **Watershed** implémentée.
+
+### Pré-requis
+
+Les pré-requis sont les suivants :
+
+- cv2
+- numpy
+- scipy
+- matplotlib
+- skimage
+- Jupyter Notebook
+
+Tous ces pré-requis sont disponibles au sein du Docker mis à disposition pour ce projet.
+
+### Guide
+
+Le script de démonstration de Watershed est disponible au sein d'un notebook Jupyter.
+Ce dernier se trouve via le chemin suivant`<projet>/sources/waterShed.ipynb`.
+
+Au sein du notebook sont expliquées les différentes phases de l'algorithme.
+Chacune est illustrée avec une image correspondant au traitement lancé.
 
 ### Lancer une analyse
 
