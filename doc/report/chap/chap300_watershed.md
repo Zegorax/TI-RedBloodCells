@@ -31,13 +31,15 @@ Le principe de dilatation est illustré sur l'image ci-dessous [@ImageWatershed]
 
 Au sein de ce projet, l'algorithme Watershed est utilisé de la manière suivante :
 
-1. 
-2. 
-3. 
-4. 
+1. Transformer l'image en couleurs HSV
+2. Récupérer uniquement la matrice de saturation
+3. Effectuer un threshold pour récupérer univequement les cellules
+4. Appliquer un flou
+5. Appliquer Watershed
+6. Compter les cellules trouvées
 
 ## Résultats
 
-todo
+todo add image when finished
 
 \newpage
