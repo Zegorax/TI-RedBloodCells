@@ -34,12 +34,16 @@ Au sein de ce projet, l'algorithme Watershed est utilisé de la manière suivant
 1. Transformer l'image en couleurs HSV
 2. Récupérer uniquement la matrice de saturation
 3. Effectuer un threshold pour récupérer univequement les cellules
-4. Appliquer un flou
+4. Appliquer un flou median
 5. Appliquer Watershed
 6. Compter les cellules trouvées
 
 ## Résultats
 
-todo add image when finished
+Application de l'algorithme Watershed sur une image. Les cellules trouvées se nombrent à 7 et sont entourées en rouge.
+Le résultat n'est pas optimal. Pourtant, de nombreuses variantes et préparations d'images sont testées.
+Il s'agit là du meilleur resultat obtenu avec un tel algorithme.
+
+![Application de watershed sur une image](img/watershed-counting.png){ width=70% }
 
 \newpage
