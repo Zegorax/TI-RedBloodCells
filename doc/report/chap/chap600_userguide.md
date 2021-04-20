@@ -35,6 +35,8 @@ Les pré-requis sont les suivants :
 - scipy
 - matplotlib
 - skimage
+- seaborn
+- pandas
 - Jupyter Notebook
 
 Tous ces pré-requis sont disponibles au sein du Docker mis à disposition pour ce projet.

@@ -15,7 +15,7 @@ Les objectifs du projet sont les suivants :
 
 ## Cahier des charges
 
-Ce cahier des charges se base sur la définition MoSCoW : https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW
+Ce cahier des charges se base sur la définition [MoSCoW](https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW) 
 
 ### But du projet
 

@@ -2,21 +2,50 @@
 
 Ce présent chapitre compare les résultats obtenus entre *YOLO* et *Traitement d'Image classique Watershed*.
 
-todo...
-
 ## Résultats YOLO
 
 Le résultat de l'analyse d'image dans le chapitre **2.5** est retranscrite ci-dessous
 dans une matrice de confusion :
 
-<--todo add matrix-->
+![Matrice de confusion YOLO v5](img/confusion-yolo.png){ width=70% }
+
+La matrice de confusion est analysé ci-dessous :
+
+: Analyse de la matrice de confusion pour Watershed
+
+| Valeur           | Nombre                                            |
+|------------------|---------------------------------------------------|
+| **Vrai positif** | 25 cellules sont correctement détectées           |
+| **Vrai négatif** | *Cette mesure ne correspond pas à cet algorithme* |
+| **Faux positif** | 0                                                 |
+| **Faux négatif** | 0                                                 |
+
+
+L'algorithme **YOLO v5** détecte les 25 cellules de l'images.
+Ainsi, le 100% des cellules sont retrouvées.
+
+\newpage
 
 ## Résultats Watershed
 
-Le résultat de l'analyse d'image dans le chapitre **3.5** est retranscrite ci-dessous
+Le résultat de l'analyse d'image dans le chapitre **3.4** est retranscrite ci-dessous
 dans une matrice de confusion :
 
-<--todo add matrix-->
+![Matrice de confusion Watershed](img/confusion-watershed.png){ width=70% }
+
+La matrice de confusion est analysé ci-dessous :
+
+: Analyse de la matrice de confusion pour Watershed
+
+| Valeur           | Nombre                                                         |
+|------------------|----------------------------------------------------------------|
+| **Vrai positif** | 11 cellules sont correctement détectées                        |
+| **Vrai négatif** | *Cette mesure ne correspond pas à cet algorithme*              |
+| **Faux positif** | 3 zones sont détectées mais correspondent à plusieurs cellules |
+| **Faux négatif** | 9 cellules ne sont pas détectées du tout                       |
+
+
+\newpage
 
 ## Comparaison des résultats
 
