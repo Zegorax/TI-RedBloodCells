@@ -1,0 +1,17 @@
+stages:
+  - Documentation
+
+Report:
+  image: fridezlucas/awesome-doc
+  stage: Documentation
+  script:
+    - chmod +x ./doc/generatedocs.sh ./doc/generateuml.sh
+    - cd doc
+    - ./generateuml.sh
+    - ./generatedocs.sh
+  tags:
+    - alpine-docker
+  artifacts:
+    paths:
+      - "./doc/*.pdf"
+    expire_in: 1 week
