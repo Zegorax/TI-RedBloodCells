@@ -2,14 +2,14 @@ import argparse, os, sys
 import time
 from pathlib import Path
 
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/yolov5")
+sys.path.append("/yolov5")
 
 import cv2
 import torch
 import torch.backends.cudnn as cudnn
 from numpy import random
 
-from yolov5.models.experimental import attempt_load
+from models.experimental import attempt_load
 from utils.datasets import LoadStreams, LoadImages
 from utils.general import check_img_size, non_max_suppression, apply_classifier, scale_coords, xyxy2xywh, \
     strip_optimizer, set_logging, increment_path
