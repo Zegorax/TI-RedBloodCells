@@ -13,12 +13,12 @@ La matrice de confusion est analysé ci-dessous :
 
 : Analyse de la matrice de confusion pour Watershed
 
-| Valeur           | Nombre                                            |
-|------------------|---------------------------------------------------|
-| **Vrai positif** | 25 cellules sont correctement détectées           |
-| **Vrai négatif** | *Cette mesure ne correspond pas à cet algorithme* |
-| **Faux positif** | 0                                                 |
-| **Faux négatif** | 0                                                 |
+| Valeur           | Nombre                                                  |
+|------------------|---------------------------------------------------------|
+| **Vrai positif** | 25 cellules sont correctement détectées                 |
+| **Vrai négatif** | *Cette mesure ne correspond pas aux données présentées* |
+| **Faux positif** | 0                                                       |
+| **Faux négatif** | 0                                                       |
 
 
 L'algorithme **YOLO v5** détecte les 25 cellules de l'images.
@@ -40,10 +40,11 @@ La matrice de confusion est analysé ci-dessous :
 | Valeur           | Nombre                                                         |
 |------------------|----------------------------------------------------------------|
 | **Vrai positif** | 11 cellules sont correctement détectées                        |
-| **Vrai négatif** | *Cette mesure ne correspond pas à cet algorithme*              |
+| **Vrai négatif** | *Cette mesure ne correspond pas aux données présentées*        |
 | **Faux positif** | 3 zones sont détectées mais correspondent à plusieurs cellules |
 | **Faux négatif** | 9 cellules ne sont pas détectées du tout                       |
 
+Ainsi, Watershed dispose d'un taux de réussite de $\frac{11}{25} = 44$%.
 
 \newpage
 
@@ -55,9 +56,9 @@ Celui-ci, disponible dans le dossier `/foo/bar` contient **z images**.
 
 : Comparaison des algorithmes pour un ensemble d'images
 
-| Algorithme | Cellules trouvées |
-|------------|-------------------|
-| YOLO v5    | x                 |
-| Watershed  | y                 |
+| Algorithme | Cellules trouvées | Taux de réussite moyen |
+|------------|-------------------|------------------------|
+| YOLO v5    | x                 | 100%                   |
+| Watershed  | y                 | 44%                    |
 
 \newpage
