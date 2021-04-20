@@ -29,14 +29,14 @@ L'anatomie d'une détecteur d'objet YOLO [@objectYoloDetector] se schématise ai
 
 ## Modèle utilisé
 
-todo
+<--todo Luca -->
 
 ## Apprentissage
 
-todo
+<--todo Luca -->
 
 ## Résultats
 
-todo
+<--todo Luca -->
 
 \newpage
