@@ -31,19 +31,20 @@ Le principe de dilatation est illustré sur l'image ci-dessous [@ImageWatershed]
 
 Au sein de ce projet, l'algorithme Watershed est utilisé de la manière suivante :
 
-1. Transformer l'image en couleurs HSV
-2. Récupérer uniquement la matrice de saturation
-3. Effectuer un threshold pour récupérer univequement les cellules
-4. Appliquer un flou median
-5. Appliquer Watershed
-6. Compter les cellules trouvées
+1. Effectuer une légère érosion sur l'image de base pour séparer un minimum les globules qui se chevauches
+2. Transformer l'image en couleurs HSV
+3. Récupérer uniquement la matrice de saturation
+4. Effectuer un threshold pour récupérer uniquement les cellules
+5. Appliquer un flou median
+6. Appliquer Watershed
+7. Compter les cellules trouvées
 
 ## Résultats
 
-Application de l'algorithme Watershed sur une image. Les cellules trouvées se nombrent à 7 et sont entourées en rouge.
+Application de l'algorithme Watershed sur une image. Les cellules trouvées se nombrent à 14 et sont entourées en rouge.
 Le résultat n'est pas optimal. Pourtant, de nombreuses variantes et préparations d'images sont testées.
-Il s'agit là du meilleur resultat obtenu avec un tel algorithme.
+Il s'agit là du meilleur résultat obtenu avec un tel algorithme.
 
-![Application de watershed sur une image](img/watershed-counting.png){ width=70% }
+![Application de watershed sur une image](../img/watershed-counting.png){ width=70% }
 
 \newpage

@@ -1,17 +1,18 @@
 # Introduction
 
-Ce projet prend part au cours de **Traitement d'Image** enseigné par François Tièche.
+Ce projet prend part au cours de **Traitement d'Image**, en troisième année à la haute école Arc ingénierie, enseigné par François Tièche.
 A travers ce dernier, le groupe d'étudiants formé par Julien Dos Santos Ferreira, Lucas Fridez et
-Luca Verardo étudient l'algorithme YOLO sur des images annotés de globules rouges.
-Les résultats obtenus sont comparés à un traitement d'imag plus classique, sans réseaux de neurones.
+Luca Verardo étudient le modèle de deep learning YOLOv5 sur des images annotés de globules rouges.
+Les résultats obtenus sont comparés aux résultats obtenu par un algorithme de traitement d'image plus classique, sans réseaux de neurones, WaterShed.
 
 ## Objectifs
 
 Les objectifs du projet sont les suivants :
 
-- Apprentissage de YOLO
-- Lancer YOLO sur les images annotées
-- Comparer les résultats avec un traitement d'image classique
+- Annoter des données pour l’entraînement de YOLOv5
+- Entraîner YOLOv5 sur le data set annoté
+- Inférer sur des images non connus avec YOLOv5 dans le but de dénombré le nombre de cellules dans l'image
+- Comparer les résultats avec un algorithme de traitement d'image classique, WaterShed
 
 ## Cahier des charges
 
