@@ -22,7 +22,7 @@ A contrario, l'approche avec l'algorithme Watershed à de la peine à dénombrer
 
 La rapidité pour être un facteur clé, mais l'inférence du modèle YOLO v5 est très rapide. Et donc il n'y a presque pas de différence concernant la rapidité de l'un ou l'autre de ces deux approches.
 
-Malgré tout, il faut tenir compte de temps d'apprentissage du modèle YOLO v5  qui lui est assez long : VALEUR A METTRE AVEC CONFIG XXX
+Malgré tout, il faut tenir compte de temps d'apprentissage du modèle YOLOv5  qui lui est assez long, environ 2h par entraînement en utilisant un GPU de type Tesla V100.
 
 ## Finalité
 
