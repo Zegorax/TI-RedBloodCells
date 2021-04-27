@@ -9,7 +9,7 @@ dans une matrice de confusion :
 
 ![Matrice de confusion YOLO v5](img/confusion-yolo.png){ width=70% }
 
-La matrice de confusion est analysé ci-dessous :
+La matrice de confusion est analysée ci-dessous :
 
 : Analyse de la matrice de confusion pour Watershed
 
@@ -33,7 +33,7 @@ dans une matrice de confusion :
 
 ![Matrice de confusion Watershed](img/confusion-watershed.png){ width=70% }
 
-La matrice de confusion est analysé ci-dessous :
+La matrice de confusion est analysée ci-dessous :
 
 : Analyse de la matrice de confusion pour Watershed
 

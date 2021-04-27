@@ -4,7 +4,7 @@ Ce présent chapitre documente l'utilisation d'un traitement d'image classique t
 
 ## Définition
 
-Watershed est un algorithme de segmentaion d'image.
+Watershed est un algorithme de segmentation d'image.
 Il utilise les lignes de partages des eaux pour délimiter plusieurs zones au sein de l'image.
 
 Ci-dessous se trouve une définition [@WikipediaWatershed] :
@@ -45,6 +45,6 @@ Application de l'algorithme Watershed sur une image. Les cellules trouvées se n
 Le résultat n'est pas optimal. Pourtant, de nombreuses variantes et préparations d'images sont testées.
 Il s'agit là du meilleur résultat obtenu avec un tel algorithme.
 
-![Application de watershed sur une image](../img/watershed-counting.png){ width=70% }
+![Application de watershed sur une image](img/watershed-counting.png){ width=70% }
 
 \newpage
