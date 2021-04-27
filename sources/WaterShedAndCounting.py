@@ -1,3 +1,9 @@
+#Project Image Processing 2021
+#Author : Verardo Luca, Fridez Lucas & Dos Santos Ferreira Julien
+#Course : 3252 - Image Processing
+#Profesor : M. Tièche
+
+
 from __future__ import print_function
 from skimage.feature import peak_local_max
 from skimage.morphology import watershed
