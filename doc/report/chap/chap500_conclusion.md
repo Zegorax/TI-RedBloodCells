@@ -1,5 +1,7 @@
 # Conclusion
 
+Ce présent chapitre conclut le projet de Traitement d'Images.
+
 ## Résultats obtenus
 
 On constate dans une premier temps que les deux solutions étudiées, YOLOv5 et Watershed, fournissent un résultat. Les deux approches sont fonctionnelles et permettent la comparaison.
