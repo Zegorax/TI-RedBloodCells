@@ -23,20 +23,40 @@ YOLO dispose de plusieurs caractéristiques [@yoloMedium] :
 
 ## Fonctionnement
 
-L'anatomie d'une détecteur d'objet YOLO [@objectYoloDetector] se schématise ainsi : 
+L'anatomie d'une détecteur d'objet YOLO [@objectYoloDetector] se schématise ainsi :
 
 ![Schéma d'un détecteur d'objets au sein de YOLO v5](img/object-detection.png)
 
 ## Modèle utilisé
 
-<--todo Luca -->
+Nous avons utilisé le modèle de machine learning nommé YOLOv5 (Disponible ici : https://github.com/ultralytics/yolov5). YOLO signifie "You Only Look Once", qui, comme son nom l'indique, passe l'image entière une seule fois et en entier à travers le réseau de convolution.
+
 
 ## Apprentissage
 
-<--todo Luca -->
+L'apprentissage s'est réalisé en plusieurs étapes.
+
+1. Annotation d'une trentaine d'images dans le dataset et entrainement du modèle avec uniquement celles-ci
+2. Utilisation du modèle entraîné pour annoter automatiquement d'autres images
+3. Ajout de ces nouvelles images dans le dataset (quelques centaines)
+4. Contrôle manuel des images annotée et correction si besoin
+5. Ré-entrainement du modèle avec le nouveau dataset et les images nouvellement annotées
+6. Utilisation de ce dernier modèle pour faire la détection finale
+
+Pour chaque entraînement du modèle, il se déroule comme suit:
+
+1. Division du dataset en deux :
+   1. 60% pour le training set (choix aléatoire)
+   2. 40% pour le validation set (choix aléatoire)
+2. L'entraînement est lancé et un modèle est généré
+3. Répétition des étapes 1 et 2, avec un nouveaux choix aléatoire de training set et validation set, mais en repartant du modèle pré-entraîné précédant. (Consolidation du modèle)
+
+Le modèle final est utilisé pour faire de l'inférence. Il se nomme `best.pt`
 
 ## Résultats
 
-<--todo Luca -->
+Le comptage des cellules avec YOLO est optimal et presque parfait dans la plupart des cas. Dans notre exemple, le nombre de cellules détectées est 25, et il y a effectivement 25 cellules dans l'image.
+
+YOLOv5 est très performant et très fiable même avec une faible quantité d'images présentes dans le dataset d'entraînement.
 
 \newpage
