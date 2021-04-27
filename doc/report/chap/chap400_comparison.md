@@ -52,13 +52,13 @@ Ainsi, Watershed dispose d'un taux de réussite de $\frac{11}{25} = 44$%.
 
 Dans le but de comparer les résultats des deux algorithmes,
 les algorithmes **YOLO v5** et **Watershed** sont lancés sur un ensemble d'images donné.
-Celui-ci, disponible dans le dossier `/foo/bar` contient **z images**.
+Celui-ci, disponible dans le dossier `dataset/test/PBC_dataset_normal_DIB/platelet` contient **2348 images**.
 
 : Comparaison des algorithmes pour un ensemble d'images
 
 | Algorithme | Cellules trouvées | Taux de réussite moyen |
 |------------|-------------------|------------------------|
-| YOLO v5    | x                 | 100%                   |
-| Watershed  | y                 | 44%                    |
+| YOLO v5    | 36'821 gl. rouges + 2'609 gl. blancs                 | 100%                   |
+| Watershed  | 1'169 régions                 | 44%                    |
 
 \newpage
