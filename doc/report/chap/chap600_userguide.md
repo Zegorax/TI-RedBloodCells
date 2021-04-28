@@ -65,7 +65,7 @@ Pour lancer l'analyse Watershed, il faut lancer toutes les cellules du notebook 
 
 
 ## Supprimer le contenu téléchargé (Docker)
-Pour supprimer toutes les images et conteneurs Docker, il suffit de lancer la commande suivant sur votre hôte (pas dans le conteneur):
+Pour supprimer toutes les images et conteneurs Docker, il suffit de lancer la commande suivante sur votre hôte (pas dans le conteneur):
 
 `docker system prune -a`
 
