@@ -2,7 +2,7 @@
 
 Ce projet prend part au cours de **Traitement d'Image**, en troisième année à la haute école Arc ingénierie, enseigné par François Tièche.
 A travers ce dernier, le groupe d'étudiants formé par Julien Dos Santos Ferreira, Lucas Fridez et
-Luca Verardo étudient le modèle de deep learning YOLO v5 sur des images annotés de globules rouges.
+Luca Verardo étudient le modèle de deep learning YOLO v5 sur des images annotées de globules rouges.
 Les résultats obtenus sont comparés aux résultats d'un algorithme de traitement d'image plus classique, sans réseaux de neurones, Watershed.
 
 ## Objectifs
