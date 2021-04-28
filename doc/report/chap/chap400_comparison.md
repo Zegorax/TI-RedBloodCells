@@ -56,9 +56,9 @@ Celui-ci, disponible dans le dossier `dataset/test/PBC_dataset_normal_DIB/platel
 
 : Comparaison des algorithmes pour un ensemble d'images
 
-| Algorithme | Cellules trouvées | Taux de réussite moyen |
-|------------|-------------------|------------------------|
-| YOLO v5    | 36'821 gl. rouges + 2'609 gl. blancs                 | 100%                   |
-| Watershed  | 1'169 régions                 | 44%                    |
+| Algorithme | Cellules trouvées                    |
+|------------|--------------------------------------|
+| YOLO v5    | 36'821 gl. rouges + 2'609 gl. blancs |
+| Watershed  | 1'169 régions                        |
 
 \newpage

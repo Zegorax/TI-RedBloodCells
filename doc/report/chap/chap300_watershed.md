@@ -19,7 +19,7 @@ Généralement, les images sont filtrées de manière à faire ressortir uniquem
 
 L'algorithme prend en compte plusieurs régions et les dilate par itération.
 Au moment ou les dilatations se rencontrent, des points de collisions sont notés.
-Ces dernier jouent le rôle de digue. Ils permettent de séparer les régions.
+Ces dernier jouent le rôle de digues. Ils permettent de séparer les régions.
 
 Le principe de dilatation est illustré sur l'image ci-dessous [@ImageWatershed] : 
 
@@ -31,7 +31,7 @@ Le principe de dilatation est illustré sur l'image ci-dessous [@ImageWatershed]
 
 Au sein de ce projet, l'algorithme Watershed est utilisé de la manière suivante :
 
-1. Effectuer une légère érosion sur l'image de base pour séparer un minimum les globules qui se chevauches
+1. Effectuer une légère érosion sur l'image de base pour séparer un minimum les globules qui se chevauchent
 2. Transformer l'image en couleurs HSV
 3. Récupérer uniquement la matrice de saturation
 4. Effectuer un threshold pour récupérer uniquement les cellules

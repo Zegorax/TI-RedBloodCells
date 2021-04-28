@@ -16,17 +16,17 @@ Une fois installé, il faut ouvrir notre dossier de projet dans Visual Studio Co
 
 Une fois l'extension installée, une nouvelle pop-up apparaîtra vous demandant de rouvrir le projet dans un conteneur. Acceptez cette popup.
 
-Le conteneur sera construit, et toutes les dépendances installées automatiquement sans polluer votre machine hôte. Il suffit ensuite d'ouvrir `sources/project.ipynb` et le notrebook Jupyter s'ouvrira dans VSCode.
+Le conteneur sera construit, et toutes les dépendances installées automatiquement sans polluer votre machine hôte. Il suffit ensuite d'ouvrir `sources/project.ipynb` et le notebook Jupyter s'ouvrira dans VSCode.
 
 ### Lancer une analyse
 
 Pour analyser une image à l'aide de YOLOv5 et de notre modèle pré-entraîné, il faut lancer la commande suivante:
 
-```
+```{.sh caption="Lancement d'une analyse via YOLO v5"}
 python3 detect.py --weights best.pt --source /path/to/the/folder/containing/images --project ./detection_results
 ```
 
-Dans cet exemple, le dossier /path/to/the/folder/containing/images sera analysé et les résultats seront enregistrés dans le dossier ./detection_results. Les résultats consistent en nouvelles images au format .png avec des rectangles indiquant où des globules rouges et blancs sont détectés.
+Dans cet exemple, le dossier `/path/to/the/folder/containing/images` sera analysé et les résultats seront enregistrés dans le dossier `./detection_results`. Les résultats consistent en de nouvelles images au format .png avec des rectangles indiquant où des globules rouges et blancs sont détectés.
 
 \newpage
 
@@ -52,7 +52,7 @@ Tous ces pré-requis sont disponibles au sein du conteneur Docker construit au d
 ### Guide
 
 Le script de démonstration de Watershed est disponible au sein d'un notebook Jupyter.
-Ce dernier se trouve via le chemin suivant`./sources/project.ipynb`.
+Ce dernier se trouve via le chemin suivant `./sources/project.ipynb`.
 
 Au sein du notebook sont expliquées les différentes phases de l'algorithme.
 Chacune est illustrée avec une image correspondant au traitement lancé.
