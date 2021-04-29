@@ -16,7 +16,7 @@ La matrice de confusion est analysée ci-dessous :
 | Valeur           | Nombre                                                  |
 |------------------|---------------------------------------------------------|
 | **Vrai positif** | 25 cellules sont correctement détectées                 |
-| **Vrai négatif** | *Cette mesure ne correspond pas aux données présentées* |
+| **Vrai négatif** | *Cette mesure ne s'applique pas dans notre cas d'utilisation* |
 | **Faux positif** | 0                                                       |
 | **Faux négatif** | 0                                                       |
 
@@ -40,7 +40,7 @@ La matrice de confusion est analysée ci-dessous :
 | Valeur           | Nombre                                                         |
 |------------------|----------------------------------------------------------------|
 | **Vrai positif** | 11 cellules sont correctement détectées                        |
-| **Vrai négatif** | *Cette mesure ne correspond pas aux données présentées*        |
+| **Vrai négatif** | *Cette mesure ne s'applique pas dans notre cas d'utilisation*        |
 | **Faux positif** | 3 zones sont détectées mais correspondent à plusieurs cellules |
 | **Faux négatif** | 9 cellules ne sont pas détectées du tout                       |
 
